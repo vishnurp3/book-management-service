@@ -1,0 +1,749 @@
+### Book 1
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The Pragmatic Programmer",
+  "author": "Andrew Hunt and David Thomas",
+  "isbn": "9780201616224",
+  "publicationDate": "1999-10-20",
+  "category": "Software Engineering",
+  "description": "Classic book on programming practices and principles",
+  "publisher": "Addison-Wesley",
+  "price": 49.99
+}
+
+### Book 2
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+  "author": "Robert C. Martin",
+  "isbn": "9780132350884",
+  "publicationDate": "2008-08-11",
+  "category": "Software Development",
+  "description": "Guide to writing clean, maintainable code",
+  "publisher": "Prentice Hall",
+  "price": 45.99
+}
+
+### Book 3
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Introduction to Algorithms",
+  "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+  "isbn": "9780262033848",
+  "publicationDate": "2009-07-31",
+  "category": "Algorithms",
+  "description": "Comprehensive introduction to algorithms",
+  "publisher": "The MIT Press",
+  "price": 84.99
+}
+
+### Book 4
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+  "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+  "isbn": "9780201633610",
+  "publicationDate": "1994-10-31",
+  "category": "Software Development",
+  "description": "Classic book on object-oriented design patterns",
+  "publisher": "Addison-Wesley",
+  "price": 54.99
+}
+
+### Book 5
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Effective Java",
+  "author": "Joshua Bloch",
+  "isbn": "9780134685991",
+  "publicationDate": "2018-01-06",
+  "category": "Programming",
+  "description": "Best practices for Java programming",
+  "publisher": "Addison-Wesley",
+  "price": 39.99
+}
+
+### Book 6
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The Mythical Man-Month: Essays on Software Engineering",
+  "author": "Frederick P. Brooks Jr.",
+  "isbn": "9780201835953",
+  "publicationDate": "1975-08-19",
+  "category": "Software Engineering",
+  "description": "Essays on software project management",
+  "publisher": "Addison-Wesley",
+  "price": 39.99
+}
+
+### Book 7
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Java Concurrency in Practice",
+  "author": "Brian Goetz",
+  "isbn": "9780321349606",
+  "publicationDate": "2006-05-19",
+  "category": "Programming",
+  "description": "Guide to concurrent programming in Java",
+  "publisher": "Pearson",
+  "price": 59.99
+}
+
+### Book 8
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Head First Design Patterns",
+  "author": "Eric Freeman, Bert Bates, Kathy Sierra, Elisabeth Robson",
+  "isbn": "9780596007126",
+  "publicationDate": "2004-10-25",
+  "category": "Software Development",
+  "description": "Introduction to design patterns with examples",
+  "publisher": "O'Reilly Media",
+  "price": 49.99
+}
+
+### Book 9
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Refactoring: Improving the Design of Existing Code",
+  "author": "Martin Fowler",
+  "isbn": "9780201485677",
+  "publicationDate": "1999-07-08",
+  "category": "Software Engineering",
+  "description": "Guide to improving the design of existing code",
+  "publisher": "Addison-Wesley",
+  "price": 47.99
+}
+
+### Book 10
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Artificial Intelligence: A Modern Approach",
+  "author": "Stuart Russell, Peter Norvig",
+  "isbn": "9780136042593",
+  "publicationDate": "2009-12-11",
+  "category": "Artificial Intelligence",
+  "description": "Comprehensive introduction to artificial intelligence",
+  "publisher": "Pearson",
+  "price": 99.99
+}
+
+### Book 11
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Grokking Algorithms",
+  "author": "Aditya Bhargava",
+  "isbn": "9781617292231",
+  "publicationDate": "2016-05-01",
+  "category": "Algorithms",
+  "description": "Illustrated guide to learning algorithms",
+  "publisher": "Manning Publications",
+  "price": 44.99
+}
+
+### Book 12
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Python Crash Course",
+  "author": "Eric Matthes",
+  "isbn": "9781593276034",
+  "publicationDate": "2015-11-20",
+  "category": "Programming",
+  "description": "Hands-on introduction to Python programming",
+  "publisher": "No Starch Press",
+  "price": 39.99
+}
+
+### Book 13
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "You Don’t Know JS: Scope & Closures",
+  "author": "Kyle Simpson",
+  "isbn": "9781449335588",
+  "publicationDate": "2014-07-20",
+  "category": "JavaScript",
+  "description": "In-depth exploration of JavaScript scope and closures",
+  "publisher": "O'Reilly Media",
+  "price": 29.99
+}
+
+### Book 14
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Cracking the Coding Interview",
+  "author": "Gayle Laakmann McDowell",
+  "isbn": "9780984782857",
+  "publicationDate": "2015-07-01",
+  "category": "Programming Interviews",
+  "description": "Comprehensive guide to coding interview questions",
+  "publisher": "CareerCup",
+  "price": 39.99
+}
+
+### Book 15
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The Art of Computer Programming",
+  "author": "Donald Knuth",
+  "isbn": "9780201896831",
+  "publicationDate": "1997-01-01",
+  "category": "Algorithms",
+  "description": "Foundational work on algorithms and programming",
+  "publisher": "Addison-Wesley",
+  "price": 199.99
+}
+
+### Book 16
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The Clean Coder: A Code of Conduct for Professional Programmers",
+  "author": "Robert C. Martin",
+  "isbn": "9780137081073",
+  "publicationDate": "2011-05-13",
+  "category": "Software Development",
+  "description": "Guide to professional software development practices",
+  "publisher": "Prentice Hall",
+  "price": 34.99
+}
+
+### Book 17
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Deep Learning",
+  "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+  "isbn": "9780262035613",
+  "publicationDate": "2016-11-18",
+  "category": "Artificial Intelligence",
+  "description": "Comprehensive guide to deep learning",
+  "publisher": "The MIT Press",
+  "price": 99.99
+}
+
+### Book 18
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Eloquent JavaScript",
+  "author": "Marijn Haverbeke",
+  "isbn": "9781593279509",
+  "publicationDate": "2018-12-04",
+  "category": "JavaScript",
+  "description": "A modern introduction to JavaScript programming",
+  "publisher": "No Starch Press",
+  "price": 34.99
+}
+
+### Book 19
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The C Programming Language",
+  "author": "Brian Kernighan, Dennis Ritchie",
+  "isbn": "9780131103627",
+  "publicationDate": "1988-04-01",
+  "category": "Programming",
+  "description": "The classic reference on C programming",
+  "publisher": "Prentice Hall",
+  "price": 54.99
+}
+
+### Book 20
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Introduction to the Theory of Computation",
+  "author": "Michael Sipser",
+  "isbn": "9781133187790",
+  "publicationDate": "2012-06-27",
+  "category": "Theoretical Computer Science",
+  "description": "Foundational text on computation theory",
+  "publisher": "Cengage Learning",
+  "price": 89.99
+}
+
+### Book 21
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Algorithms to Live By: The Computer Science of Human Decisions",
+  "author": "Brian Christian and Tom Griffiths",
+  "isbn": "9781627790369",
+  "publicationDate": "2016-04-19",
+  "category": "Computer Science",
+  "description": "Explores how computer algorithms can improve human decision-making",
+  "publisher": "Henry Holt and Co.",
+  "price": 27.99
+}
+
+### Book 22
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Deep Work: Rules for Focused Success in a Distracted World",
+  "author": "Cal Newport",
+  "isbn": "9781455586691",
+  "publicationDate": "2016-01-05",
+  "category": "Productivity",
+  "description": "Strategies for cultivating deep focus in a noisy world",
+  "publisher": "Grand Central Publishing",
+  "price": 29.99
+}
+
+### Book 23
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The Lean Startup",
+  "author": "Eric Ries",
+  "isbn": "9780307887894",
+  "publicationDate": "2011-09-13",
+  "category": "Business",
+  "description": "A methodology for creating successful startups",
+  "publisher": "Crown Business",
+  "price": 26.99
+}
+
+### Book 24
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Sapiens: A Brief History of Humankind",
+  "author": "Yuval Noah Harari",
+  "isbn": "9780062316097",
+  "publicationDate": "2015-02-10",
+  "category": "History",
+  "description": "An exploration of human history from ancient times to the present",
+  "publisher": "Harper",
+  "price": 22.99
+}
+
+### Book 25
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Thinking, Fast and Slow",
+  "author": "Daniel Kahneman",
+  "isbn": "9780374533557",
+  "publicationDate": "2013-04-02",
+  "category": "Psychology",
+  "description": "Insights into the two systems that drive human thought",
+  "publisher": "Farrar, Straus and Giroux",
+  "price": 18.99
+}
+
+### Book 26
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The Power of Habit: Why We Do What We Do in Life and Business",
+  "author": "Charles Duhigg",
+  "isbn": "9780812981605",
+  "publicationDate": "2014-01-07",
+  "category": "Psychology",
+  "description": "A look at the science of habits and how they shape our lives",
+  "publisher": "Random House",
+  "price": 16.99
+}
+
+### Book 27
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Hooked: How to Build Habit-Forming Products",
+  "author": "Nir Eyal",
+  "isbn": "9781591847786",
+  "publicationDate": "2014-11-04",
+  "category": "Business",
+  "description": "A guide to creating habit-forming products",
+  "publisher": "Portfolio",
+  "price": 24.99
+}
+
+### Book 28
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Zero to One: Notes on Startups, or How to Build the Future",
+  "author": "Peter Thiel and Blake Masters",
+  "isbn": "9780804139298",
+  "publicationDate": "2014-09-16",
+  "category": "Business",
+  "description": "Advice on building innovative startups",
+  "publisher": "Crown Business",
+  "price": 25.99
+}
+
+### Book 29
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Bad Blood: Secrets and Lies in a Silicon Valley Startup",
+  "author": "John Carreyrou",
+  "isbn": "9781524731656",
+  "publicationDate": "2018-05-21",
+  "category": "True Crime",
+  "description": "The story of Theranos and its founder's deceit",
+  "publisher": "Knopf",
+  "price": 17.99
+}
+
+### Book 30
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail",
+  "author": "Clayton M. Christensen",
+  "isbn": "9781633691780",
+  "publicationDate": "2016-11-15",
+  "category": "Business",
+  "description": "How great companies fail due to disruptive technologies",
+  "publisher": "Harvard Business Review Press",
+  "price": 23.99
+}
+
+### Book 31
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The Subtle Art of Not Giving a F*ck",
+  "author": "Mark Manson",
+  "isbn": "9780062457714",
+  "publicationDate": "2016-09-13",
+  "category": "Self-help",
+  "description": "A counterintuitive approach to living a good life",
+  "publisher": "Harper",
+  "price": 15.99
+}
+
+### Book 32
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Educated: A Memoir",
+  "author": "Tara Westover",
+  "isbn": "9780399590504",
+  "publicationDate": "2018-02-20",
+  "category": "Memoir",
+  "description": "A memoir about growing up in a strict and abusive household",
+  "publisher": "Random House",
+  "price": 28.00
+}
+
+### Book 33
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Principles: Life and Work",
+  "author": "Ray Dalio",
+  "isbn": "9781501124020",
+  "publicationDate": "2017-09-19",
+  "category": "Business",
+  "description": "A set of principles for success in work and life",
+  "publisher": "Simon & Schuster",
+  "price": 30.00
+}
+
+### Book 34
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Good to Great: Why Some Companies Make the Leap... and Others Don't",
+  "author": "Jim Collins",
+  "isbn": "9780066620992",
+  "publicationDate": "2001-10-16",
+  "category": "Business",
+  "description": "An analysis of what makes companies succeed long term",
+  "publisher": "HarperBusiness",
+  "price": 27.99
+}
+
+### Book 35
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Man's Search for Meaning",
+  "author": "Viktor E. Frankl",
+  "isbn": "9780807014295",
+  "publicationDate": "2006-06-01",
+  "category": "Psychology",
+  "description": "A psychologist's memoir about surviving the Holocaust",
+  "publisher": "Beacon Press",
+  "price": 14.99
+}
+
+### Book 36
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The 7 Habits of Highly Effective People",
+  "author": "Stephen R. Covey",
+  "isbn": "9780743269513",
+  "publicationDate": "2004-11-15",
+  "category": "Self-help",
+  "description": "A guide to personal and professional effectiveness",
+  "publisher": "Simon & Schuster",
+  "price": 16.99
+}
+
+### Book 37
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+  "author": "James Clear",
+  "isbn": "9780735211292",
+  "publicationDate": "2018-10-16",
+  "category": "Self-help",
+  "description": "Strategies to build good habits and break bad ones",
+  "publisher": "Avery",
+  "price": 27.00
+}
+
+### Book 38
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The Alchemist",
+  "author": "Paulo Coelho",
+  "isbn": "9780061122415",
+  "publicationDate": "1993-05-01",
+  "category": "Fiction",
+  "description": "A fable about following your dreams",
+  "publisher": "HarperOne",
+  "price": 16.99
+}
+
+### Book 39
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The Power of Now: A Guide to Spiritual Enlightenment",
+  "author": "Eckhart Tolle",
+  "isbn": "9781577314806",
+  "publicationDate": "2004-08-01",
+  "category": "Spirituality",
+  "description": "A guide to living in the present moment",
+  "publisher": "New World Library",
+  "price": 15.00
+}
+
+### Book 40
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Start with Why: How Great Leaders Inspire Everyone to Take Action",
+  "author": "Simon Sinek",
+  "isbn": "9781591846444",
+  "publicationDate": "2009-10-29",
+  "category": "Business",
+  "description": "Insights on how leaders can inspire action by starting with why",
+  "publisher": "Portfolio",
+  "price": 16.00
+}
+
+### Book 41
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The Art of War",
+  "author": "Sun Tzu",
+  "isbn": "9781590302255",
+  "publicationDate": "2005-01-01",
+  "category": "Military Strategy",
+  "description": "An ancient Chinese military treatise on strategy and tactics",
+  "publisher": "Shambhala",
+  "price": 12.95
+}
+
+### Book 42
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The Four Agreements: A Practical Guide to Personal Freedom",
+  "author": "Don Miguel Ruiz",
+  "isbn": "9781878424310",
+  "publicationDate": "1997-11-07",
+  "category": "Self-help",
+  "description": "A code of conduct for attaining personal freedom",
+  "publisher": "Amber-Allen Publishing",
+  "price": 8.99
+}
+
+### Book 43
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "How to Win Friends and Influence People",
+  "author": "Dale Carnegie",
+  "isbn": "9780671027032",
+  "publicationDate": "1998-10-01",
+  "category": "Self-help",
+  "description": "Timeless principles for building strong relationships",
+  "publisher": "Pocket Books",
+  "price": 17.00
+}
+
+### Book 44
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The Richest Man in Babylon",
+  "author": "George S. Clason",
+  "isbn": "9780451205360",
+  "publicationDate": "2002-02-01",
+  "category": "Finance",
+  "description": "A series of parables about wealth management",
+  "publisher": "Signet",
+  "price": 7.99
+}
+
+### Book 45
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The Lean Startup",
+  "author": "Eric Ries",
+  "isbn": "9780307887894",
+  "publicationDate": "2011-09-13",
+  "category": "Business",
+  "description": "A methodology for creating successful startups",
+  "publisher": "Crown Business",
+  "price": 26.99
+}
+
+### Book 46
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Dare to Lead: Brave Work. Tough Conversations. Whole Hearts.",
+  "author": "Brené Brown",
+  "isbn": "9780399592522",
+  "publicationDate": "2018-10-09",
+  "category": "Leadership",
+  "description": "Guidance on courageous leadership",
+  "publisher": "Random House",
+  "price": 28.00
+}
+
+### Book 47
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The Intelligent Investor",
+  "author": "Benjamin Graham",
+  "isbn": "9780060555665",
+  "publicationDate": "2006-02-21",
+  "category": "Finance",
+  "description": "A classic guide to investing principles",
+  "publisher": "Harper Business",
+  "price": 24.99
+}
+
+### Book 48
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "The Power of Positive Thinking",
+  "author": "Norman Vincent Peale",
+  "isbn": "9780743234801",
+  "publicationDate": "2003-03-12",
+  "category": "Self-help",
+  "description": "A guide to developing a positive mindset",
+  "publisher": "Touchstone",
+  "price": 14.99
+}
+
+### Book 49
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Rich Dad Poor Dad",
+  "author": "Robert T. Kiyosaki",
+  "isbn": "9781612680170",
+  "publicationDate": "2017-04-11",
+  "category": "Finance",
+  "description": "Personal finance advice and wealth-building strategies",
+  "publisher": "Plata Publishing",
+  "price": 12.99
+}
+
+### Book 50
+POST http://localhost:8080/api/v1/books
+Content-Type: application/json
+
+{
+  "title": "Awaken the Giant Within",
+  "author": "Tony Robbins",
+  "isbn": "9780671791544",
+  "publicationDate": "1991-11-01",
+  "category": "Self-help",
+  "description": "Strategies for taking control of your life",
+  "publisher": "Free Press",
+  "price": 16.99
+}
